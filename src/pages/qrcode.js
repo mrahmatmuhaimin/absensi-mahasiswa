@@ -12,7 +12,7 @@ function qrCode() {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="stylesheet" href="../../assets/styles/modulPage.css" />
-                <title>Module Page Student</title>
+                <title>QR Code</title>
             </Helmet>
             <div class="container">
                 <Header nama="Muhammad Rahmat Muhaimin" nim="1207050078" />

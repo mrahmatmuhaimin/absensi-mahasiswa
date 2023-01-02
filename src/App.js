@@ -19,7 +19,7 @@ import ModulePageStudent from "./pages/student-page/modulePageStudent";
 import AttendanceStudentOverview from "./pages/student-page/attendanceStudentOverview";
 import Setting from "./pages/setting";
 import QrCode from "./pages/qrcode";
-import QrScanner from "./pages/scanner";
+import QRscanner from "./pages/scanner";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
           <Route path='/student/module' element={<ModulePageStudent/>}></Route>
           <Route path='/student/qrcode' element={<QrCode/>}></Route>
           <Route path='/lecturer' element={<LecturerPage/>}></Route>
-          <Route path='/lecturer/scannner' element={<QrScanner/>}></Route>
+          <Route path='/lecturer/scanner' element={<QRscanner/>}></Route>
           <Route path='/lecturer/attendancelecturer' element={<AttendanceLecturer/>}></Route>
           <Route path='/lecturer/attendancelecturer/studentlist' element={<StudentListLecturer/>}></Route>
           <Route path='/lecturer/modulPageLecturer' element={<ModulPageLecturer/>}></Route>
